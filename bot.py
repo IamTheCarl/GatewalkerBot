@@ -41,7 +41,7 @@ async def send_image_message(image, message, isPrivate):
 
 def run_discord_bot():
     # default stuff
-    TOKEN = 'MTA3NjI2MDE0MDM4MDA4MjE3OQ.Gc1p--.h_T7hq9e-QgBGLGjngEgj9pScciy4GBHTbJWFQ'#ADD TOKEN HERE
+    TOKEN = ''#ADD TOKEN HERE
     intents = discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents=intents)
